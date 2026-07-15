@@ -4,64 +4,138 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#075f78">
   <title>Sinilevätilanne – Tietosuojakäytäntö</title>
-  <meta name="description" content="Sinilevätilanne iOS -sovelluksen tietosuojakäytäntö.">
+  <meta name="description" content="Sinilevätilanne iOS -sovelluksen tietosuojakäytäntö ja tietosuojaa koskevat yhteystiedot.">
+  <link rel="canonical" href="https://edman01.github.io/sinilevatilanne-support/privacy.html">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
+  <a class="skip-link" href="#sisalto">Siirry sisältöön</a>
+
+  <header class="hero hero-small">
     <div class="container">
-      <p class="eyebrow"><a href="index.html">Sinilevätilanne iOS</a></p>
-      <h1>Tietosuojakäytäntö</h1>
-      <p class="lead">Päivitetty 15.7.2026</p>
+      <nav class="topbar" aria-label="Päänavigaatio">
+        <a class="brand" href="index.html" aria-label="Sinilevätilanne-tuki">
+          <span class="app-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img">
+              <path d="M24 5C19 14 11 22 11 31a13 13 0 0 0 26 0C37 22 29 14 24 5Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <circle cx="20" cy="29" r="2.4" fill="currentColor"/>
+              <circle cx="28" cy="25" r="3.2" fill="currentColor" opacity=".75"/>
+              <circle cx="27" cy="34" r="1.8" fill="currentColor" opacity=".55"/>
+            </svg>
+          </span>
+          <span>Sinilevätilanne</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html">Tuki</a>
+          <a aria-current="page" href="privacy.html">Tietosuoja</a>
+        </div>
+      </nav>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Tietosuojakäytäntö · versio 1.0</p>
+        <h1>Tietosuoja selkeästi.</h1>
+        <p class="lead">Tässä kerrotaan, mitä tietoja Sinilevätilanne käsittelee, miksi niitä käsitellään ja mitä oikeuksia sinulla on.</p>
+        <p class="updated">Voimassa 15.7.2026 alkaen · päivitetty 15.7.2026</p>
+      </div>
     </div>
   </header>
 
-  <main class="container legal">
-    <section class="card">
-      <h2>Rekisterinpitäjä ja yhteydenotto</h2>
-      <p>Sovelluksen kehittäjä on Eetu Mänttäri.</p>
-      <p>Tietosuojaa ja sovellusta koskevat yhteydenotot voi lähettää <a href="https://github.com/edman01/sinilevatilanne-support/issues/new?template=support.yml">tukisivun GitHub-lomakkeella</a>. GitHub-tukipyynnöt ovat oletuksena julkisia, joten lomakkeelle ei tule kirjoittaa arkaluonteisia henkilötietoja.</p>
+  <main id="sisalto" class="container legal">
+    <section class="card summary-card" aria-labelledby="tiivistelma">
+      <h2 id="tiivistelma">Lyhyesti</h2>
+      <ul class="check-list">
+        <li>Sovelluksessa ei ole käyttäjätiliä, mainoksia, kehittäjän lisäämää analytiikkaa, seurantaa tai sijaintilupaa.</li>
+        <li>Sovellus hakee havaintotiedot Järvi-meriwikistä ja näyttää kartan Apple Mapsilla.</li>
+        <li>Kehittäjä saa henkilötietoja suoraan vain, jos lähetät vapaaehtoisesti sähköpostia tukeen.</li>
+        <li>Tukitietoja ei myydä, käytetä mainontaan tai yhdistetä käyttäjäprofiiliksi.</li>
+      </ul>
     </section>
 
-    <section class="card">
-      <h2>Kehittäjän keräämät tiedot</h2>
-      <p>Sinilevätilanteen kehittäjä ei kerää, vastaanota eikä säilytä sovelluksen käyttäjien henkilötietoja. Sovelluksessa ei ole käyttäjätiliä, mainoksia, kehittäjän analytiikkaa, käyttäjän seurantaa tai sijaintilupaa. Sovellus ei käytä mainostunnistetta eikä muodosta käyttäjäprofiileja.</p>
-      <p>Jos käyttäjä ottaa vapaaehtoisesti yhteyttä GitHubin kautta, GitHub käsittelee tukipyyntöön sisältyvät tiedot omien ehtojensa ja tietosuojakäytäntönsä mukaisesti.</p>
+    <section class="card" aria-labelledby="rekisterinpitaja">
+      <h2 id="rekisterinpitaja">Rekisterinpitäjä ja yhteydenotto</h2>
+      <p>Sinilevätilanne-sovelluksen kehittäjä ja sähköpostituen rekisterinpitäjä on <strong>Eetu Mänttäri</strong>.</p>
+      <p>Tietosuojaa ja sovellustukea koskevat yhteydenotot käsitellään vain sähköpostitse:</p>
+      <p class="email"><a href="mailto:edman.build@gmail.com?subject=Sinilev%C3%A4tilanne%20%E2%80%93%20tietosuoja">edman.build@gmail.com</a></p>
     </section>
 
-    <section class="card">
-      <h2>Järvi-meriwikin verkkoyhteys</h2>
-      <p>Sovellus hakee julkiset sinilevähavainnot HTTPS-yhteydellä Järvi-meriwikistä. Järvi-meriwikin ylläpitäjä Suomen ympäristökeskus (Syke) ilmoittaa käsittelevänsä verkkopalvelun palvelinlokeissa teknisiä tietoja, kuten IP-osoitetta, pyyntöaikaa ja käytettyä palvelua, palvelun toimintaan ja tilastointiin.</p>
-      <p>Sovelluksen kehittäjä ei saa näitä lokitietoja itselleen eikä päätä niiden säilytysajoista.</p>
-      <p><a href="https://www.jarviwiki.fi/wiki/J%C3%A4rviwiki%3ATietosuojak%C3%A4yt%C3%A4nt%C3%B6">Järvi-meriwikin tietosuojailmoitus</a></p>
+    <section class="card" aria-labelledby="sahkoposti">
+      <h2 id="sahkoposti">Sähköpostituki</h2>
+      <h3>Mitä tietoja käsitellään?</h3>
+      <p>Kun lähetät tukiviestin, käsiteltäviä tietoja voivat olla sähköpostiosoitteesi, viestissä käyttämäsi nimi tai allekirjoitus, viestin sisältö, lähetysajat, liitteet sekä vapaaehtoisesti ilmoittamasi laite-, iOS-, sovellusversio- ja virhetiedot.</p>
+      <p>Älä lähetä tukiviestissä terveystietoja, salasanoja, tarkkaa kotiosoitetta tai muuta asian ratkaisemisen kannalta tarpeetonta arkaluonteista tietoa.</p>
+
+      <h3>Miksi tietoja käsitellään?</h3>
+      <p>Tietoja käytetään tukipyyntöön vastaamiseen, ongelman selvittämiseen, sovelluksen korjaamiseen sekä väärinkäytösten ja tietoturvaongelmien ehkäisemiseen. Tietoja ei käytetä suoramarkkinointiin eikä automatisoituun päätöksentekoon.</p>
+
+      <h3>Käsittelyn oikeusperuste</h3>
+      <p>Kun yhteydenotto koskee sovelluksen käyttöä tai siihen liittyvää asiakastukea, käsittely perustuu sopimuksen täytäntöönpanoon tai sitä edeltäviin käyttäjän pyytämiin toimiin (EU:n yleisen tietosuoja-asetuksen 6 artiklan 1 kohdan b alakohta). Sovelluksen toiminnan, turvallisuuden ja väärinkäytösten selvittämisen osalta perusteena voi olla kehittäjän oikeutettu etu (6 artiklan 1 kohdan f alakohta). Lakisääteisen velvoitteen edellyttämä käsittely perustuu kyseiseen velvoitteeseen.</p>
+
+      <h3>Säilytysaika</h3>
+      <p>Tukiviestejä säilytetään vain niin kauan kuin asian ratkaiseminen, kohtuullinen seuranta, tietoturvan varmistaminen tai oikeudellisen velvoitteen hoitaminen edellyttää. Säilytyksen tarvetta arvioidaan säännöllisesti, ja tarpeettomat viestit poistetaan. Tietoja voidaan säilyttää pidempään, jos se on tarpeen oikeusvaateen laatimiseksi, esittämiseksi tai puolustamiseksi.</p>
     </section>
 
-    <section class="card">
-      <h2>Apple Maps ja App Store</h2>
-      <p>Sovellus käyttää Apple Mapsia kartan näyttämiseen ja sitä jaetaan Apple App Storen kautta. Apple voi käsitellä näiden palvelujen teknisiä ja kaupallisia tietoja oman tietosuojakäytäntönsä mukaisesti. Sovelluksen kehittäjä ei vastaanota Apple Mapsista käyttäjäkohtaista sijaintia.</p>
-      <p><a href="https://www.apple.com/legal/privacy/fi/">Applen tietosuojakäytäntö</a></p>
+    <section class="card" aria-labelledby="sovellus">
+      <h2 id="sovellus">Sovelluksessa käsiteltävät tiedot</h2>
+      <p>Sovellus ei pyydä nimeä, sähköpostiosoitetta, puhelinnumeroa tai käyttäjätiliä. Siinä ei ole mainoksia, kehittäjän lisäämää analytiikka-SDK:ta, mainostunnisteen käyttöä tai käyttäjien välistä viestintää.</p>
+      <p>Valitsemasi karttatyyli tallennetaan vain paikallisesti laitteelle sovelluksen asetuksena. Asetus ei sisällä henkilötietoa ja poistuu sovelluksen paikallisten tietojen mukana.</p>
+      <p>Kun valitset navigoinnin havaintopaikalle, sovellus välittää valitun kohteen koordinaatit laitteen oletusnavigaattorille. Sinilevätilanne ei itse pyydä tai käsittele nykyistä sijaintiasi. Navigointisovellus käsittelee tietoja oman tietosuojakäytäntönsä mukaisesti.</p>
     </section>
 
-    <section class="card">
-      <h2>Tietojen säilytys ja poistaminen</h2>
-      <p>Kehittäjä ei ylläpidä sovelluksen käyttäjistä rekisteriä eikä vastaanota käyttäjän luomaa sisältöä. Siksi kehittäjällä ei ole sovelluksen kautta kerättyjä käyttäjätietoja säilytettävänä tai poistettavana.</p>
-      <p>Sovelluksen poistaminen poistaa sen paikallisen sovellusdatan laitteelta iOS:n toimintatavan mukaisesti. Järvi-meriwikin lokitietojen säilytys, poistaminen ja rekisteröidyn oikeudet määräytyvät Sykkeen oman tietosuojailmoituksen mukaisesti. GitHub-tukipyynnön voi poistaa tai sitä voi muokata GitHubin toimintojen ja ehtojen mukaisesti.</p>
+    <section class="card" aria-labelledby="jarviwiki">
+      <h2 id="jarviwiki">Järvi-meriwikin verkkoyhteys</h2>
+      <p>Sovellus hakee julkiset sinilevähavainnot HTTPS-yhteydellä Järvi-meriwikin rajapinnasta. Järvi-meriwikin ylläpitäjä Suomen ympäristökeskus (Syke) kertoo käsittelevänsä verkkopalvelun teknisiä tietoja, kuten IP-osoitetta, pyyntöaikaa, käytettyä palvelua, selainta ja käyttöjärjestelmää, palvelun toimintaan ja tilastointiin.</p>
+      <p>Kehittäjä ei saa Järvi-meriwikin yksilöityjä palvelinlokitietoja eikä päätä niiden säilytysajoista. Syke vastaa omasta käsittelystään oman tietosuojailmoituksensa mukaisesti.</p>
+      <p><a href="https://www.jarviwiki.fi/wiki/J%C3%A4rviwiki%3ATietosuojak%C3%A4yt%C3%A4nt%C3%B6" rel="external">Järvi-meriwikin tietosuojailmoitus</a></p>
     </section>
 
-    <section class="card">
-      <h2>Lapset</h2>
-      <p>Sovellus ei tarkoituksellisesti kerää lasten tai muiden käyttäjien henkilötietoja.</p>
+    <section class="card" aria-labelledby="apple">
+      <h2 id="apple">Apple Maps ja App Store</h2>
+      <p>Sovellus käyttää Apple Mapsia kartan näyttämiseen ja sitä jaetaan App Storen kautta. Apple voi käsitellä kartta-, laite-, osto- ja palvelutietoja oman tietosuojakäytäntönsä mukaisesti. Kehittäjä voi saada Applelta koottuja myynti- ja käyttöraportteja, mutta ei käytä niitä yksittäisen käyttäjän tunnistamiseen.</p>
+      <p><a href="https://www.apple.com/legal/privacy/fi/" rel="external">Applen tietosuojakäytäntö</a></p>
     </section>
 
-    <section class="card">
-      <h2>Muutokset tähän käytäntöön</h2>
-      <p>Jos sovellukseen lisätään esimerkiksi analytiikkaa, mainoksia, käyttäjätilejä tai muuta henkilötietojen käsittelyä, tämä tietosuojakäytäntö ja App Storen tietosuojailmoitus päivitetään ennen muutoksen julkaisemista. Sivun yläosassa näkyy viimeisin päivityspäivä.</p>
+    <section class="card" aria-labelledby="palveluntarjoajat">
+      <h2 id="palveluntarjoajat">Sähköposti ja tukisivuston palveluntarjoajat</h2>
+      <p>Sähköpostituen teknisenä palveluna käytetään Gmailia. Google käsittelee sähköpostiin liittyviä tietoja omien ehtojensa, tietosuojakäytäntönsä ja ilmoittamiensa suojatoimien mukaisesti.</p>
+      <p>Tämä tuki- ja tietosuojasivusto julkaistaan GitHub Pages -palvelussa. Sivustoon ei ole lisätty evästeitä, analytiikkaa tai seurantakoodia. GitHub voi kuitenkin käsitellä sivupyynnön yhteydessä IP-osoitetta ja muita teknisiä lokitietoja oman tietosuojakäytäntönsä mukaisesti. Kehittäjä ei saa näitä yksilöityjä lokitietoja.</p>
+      <p>Google ja GitHub voivat käsitellä tietoja myös Euroopan talousalueen ulkopuolella omissa käytännöissään kuvattujen siirtoperusteiden ja suojatoimien mukaisesti.</p>
+      <p class="link-row">
+        <a href="https://policies.google.com/privacy?hl=fi" rel="external">Googlen tietosuojakäytäntö</a>
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="external">GitHubin tietosuojakäytäntö</a>
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="luovutukset">
+      <h2 id="luovutukset">Tietojen luovutukset</h2>
+      <p>Tukitietoja ei myydä eikä luovuteta mainontaan. Niitä voidaan antaa edellä mainituille teknisille palveluntarjoajille siinä määrin kuin palvelun käyttö edellyttää sekä viranomaiselle tai muulle taholle, jos laki sitä velvoittaa tai oikeusvaateen käsittely sitä perustellusti edellyttää.</p>
+    </section>
+
+    <section class="card" aria-labelledby="oikeudet">
+      <h2 id="oikeudet">Oikeutesi</h2>
+      <p>Sinulla on soveltuvin osin oikeus saada tieto henkilötietojesi käsittelystä, tarkastaa tietosi, pyytää virheellisten tietojen oikaisua tai tietojen poistamista, rajoittaa käsittelyä, vastustaa oikeutettuun etuun perustuvaa käsittelyä sekä saada toimittamasi tiedot siirrettyä järjestelmästä toiseen silloin, kun lain edellytykset täyttyvät.</p>
+      <p>Pyynnön voi lähettää osoitteeseen <a href="mailto:edman.build@gmail.com?subject=Sinilev%C3%A4tilanne%20%E2%80%93%20tietosuojapyynt%C3%B6">edman.build@gmail.com</a>. Pyytäjän henkilöllisyys voidaan joutua varmistamaan ennen pyynnön toteuttamista. Sinulla on myös oikeus tehdä valitus toimivaltaiselle tietosuojaviranomaiselle.</p>
+      <p class="link-row">
+        <a href="https://tietosuoja.fi/rekisteroidyn-oikeudet" rel="external">Tietosuojavaltuutetun toimisto: rekisteröidyn oikeudet</a>
+        <a href="https://tietosuoja.fi/ilmoitus-tietosuojavaltuutetulle" rel="external">Tee ilmoitus tietosuojavaltuutetulle</a>
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="lapset">
+      <h2 id="lapset">Lapset</h2>
+      <p>Sovellusta ei ole suunnattu erityisesti lapsille, eikä kehittäjä kerää sovelluksen kautta tarkoituksellisesti lasten henkilötietoja. Jos alaikäinen lähettää tukiviestin, viestissä tulee ilmoittaa vain asian ratkaisemiseksi välttämättömät tiedot.</p>
+    </section>
+
+    <section class="card" aria-labelledby="muutokset">
+      <h2 id="muutokset">Muutokset tähän käytäntöön</h2>
+      <p>Tämä käytäntö kuvaa sovelluksen nykyistä versiota ja tukisivustoa. Jos sovelluksen ominaisuudet, palveluntarjoajat tai henkilötietojen käsittely muuttuvat, käytäntö ja tarvittaessa App Storen tietosuojailmoitukset päivitetään ennen olennaisen muutoksen käyttöönottoa. Päivityspäivä ja versionumero näkyvät sivun yläosassa.</p>
     </section>
   </main>
 
   <footer class="container footer">
-    <p><a href="index.html">Tuki</a> · © 2026 Eetu Mänttäri</p>
+    <p>© 2026 Eetu Mänttäri</p>
+    <p><a href="index.html">Tuki</a> · <a href="mailto:edman.build@gmail.com">edman.build@gmail.com</a></p>
   </footer>
 </body>
 </html>

@@ -1,9 +1,11 @@
 # Sinilevätilanne – tuki ja tietosuoja
 
-Sinilevätilanne iOS -sovelluksen julkiset suomenkieliset tukisivut.
+Sinilevätilanne iOS -sovelluksen julkiset suomenkieliset tuki- ja tietosuojasivut.
 
 - Tuki: https://edman01.github.io/sinilevatilanne-support/
 - Tietosuojakäytäntö: https://edman01.github.io/sinilevatilanne-support/privacy.html
-- Tukipyynnöt: https://github.com/edman01/sinilevatilanne-support/issues/new?template=support.yml
+- Sähköpostituki: edman.build@gmail.com
 
-Sivusto julkaistaan GitHub Pagesilla `main`-haaran `docs`-kansiosta.
+Tukipyynnöt käsitellään vain sähköpostitse. GitHub Issues ei ole tukikanava.
+
+Sivusto julkaistaan GitHub Pagesilla `main`-haaran `docs`-kansiosta. Sivusto ei sisällä JavaScriptiä, omaa analytiikkaa tai seurantakoodia.

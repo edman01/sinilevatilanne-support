@@ -4,54 +4,111 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#075f78">
   <title>Sinilevätilanne – Tuki</title>
-  <meta name="description" content="Sinilevätilanne iOS -sovelluksen virallinen tukisivu.">
+  <meta name="description" content="Sinilevätilanne iOS -sovelluksen virallinen tukisivu ja yhteystiedot.">
+  <link rel="canonical" href="https://edman01.github.io/sinilevatilanne-support/">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#sisalto">Siirry sisältöön</a>
+
   <header class="hero">
     <div class="container">
-      <div class="app-mark" aria-hidden="true">≈</div>
-      <p class="eyebrow">Sinilevätilanne iOS</p>
-      <h1>Tuki</h1>
-      <p class="lead">Apua sovelluksen käyttöön ja yhteydenotto kehittäjälle.</p>
+      <nav class="topbar" aria-label="Päänavigaatio">
+        <a class="brand" href="index.html" aria-label="Sinilevätilanne-tuki">
+          <span class="app-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img">
+              <path d="M24 5C19 14 11 22 11 31a13 13 0 0 0 26 0C37 22 29 14 24 5Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+              <circle cx="20" cy="29" r="2.4" fill="currentColor"/>
+              <circle cx="28" cy="25" r="3.2" fill="currentColor" opacity=".75"/>
+              <circle cx="27" cy="34" r="1.8" fill="currentColor" opacity=".55"/>
+            </svg>
+          </span>
+          <span>Sinilevätilanne</span>
+        </a>
+        <div class="nav-links">
+          <a aria-current="page" href="index.html">Tuki</a>
+          <a href="privacy.html">Tietosuoja</a>
+        </div>
+      </nav>
+
+      <div class="hero-copy">
+        <p class="eyebrow">Sinilevätilanne iOS</p>
+        <h1>Tuki ilman turhaa säätöä.</h1>
+        <p class="lead">Jos jokin ei toimi odotetusti, lähetä sähköpostia. Tukipyynnöt käsitellään vain sähköpostitse.</p>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="card">
-      <h2>Ota yhteyttä</h2>
-      <p>Jos sovellus ei käynnisty, havaintoja ei lataudu tai löydät muun virheen, lähetä tukipyyntö GitHubissa. Älä kirjoita tukipyyntöön arkaluonteisia henkilötietoja.</p>
-      <p><a class="button" href="https://github.com/edman01/sinilevatilanne-support/issues/new?template=support.yml">Lähetä tukipyyntö</a></p>
-      <p class="muted">GitHub-tili vaaditaan tukipyynnön lähettämiseen. Tukipyynnöt ovat oletuksena julkisia.</p>
+  <main id="sisalto" class="container">
+    <section class="card contact-card" aria-labelledby="yhteys">
+      <p class="pill">Ainoa tukikanava</p>
+      <h2 id="yhteys">Sähköpostituki</h2>
+      <p>Virhetilanteet, käyttöön liittyvät kysymykset, palaute ja kehitysehdotukset voi lähettää osoitteeseen:</p>
+      <p class="email"><a href="mailto:edman.build@gmail.com?subject=Sinilev%C3%A4tilanne%20%E2%80%93%20tukipyynt%C3%B6">edman.build@gmail.com</a></p>
+      <p><a class="button" href="mailto:edman.build@gmail.com?subject=Sinilev%C3%A4tilanne%20%E2%80%93%20tukipyynt%C3%B6">Kirjoita tukiviesti</a></p>
+      <p class="muted">Tukipyyntöjä ei käsitellä GitHubissa, sosiaalisessa mediassa tai sovelluksen sisällä. Viestit käsitellään tapauskohtaisesti, eikä tiettyä vastausaikaa voida luvata.</p>
     </section>
 
-    <section class="card">
-      <h2>Liitä tukipyyntöön</h2>
-      <ul>
-        <li>sovelluksen versio ja build-numero Asetukset → Tietoja sovelluksesta -näkymästä</li>
-        <li>iOS-versio ja iPhone-malli</li>
-        <li>lyhyt kuvaus ongelmasta ja sen toistamisvaiheet</li>
-        <li>kuvakaappaus, jos se ei sisällä yksityisiä tietoja</li>
+    <section class="card" aria-labelledby="mukaan">
+      <h2 id="mukaan">Näillä tiedoilla päästään nopeasti eteenpäin</h2>
+      <ul class="check-list">
+        <li>sovellusversio ja build-numero kohdasta Asetukset → Tietoja sovelluksesta</li>
+        <li>iPhone-malli ja iOS-versio</li>
+        <li>mitä tapahtui, mitä odotit tapahtuvan ja miten ongelman voi toistaa</li>
+        <li>kuvakaappaus, jos siinä ei näy tarpeettomia henkilötietoja</li>
       </ul>
+      <div class="notice">
+        <strong>Pidä viesti napakkana ja yksityisenä.</strong>
+        <p>Älä lähetä terveystietoja, tarkkaa kotiosoitetta, salasanoja tai muuta arkaluonteista tietoa. Sähköpostiosoitteesi ja viestisi sisältö käsitellään tukipyynnön hoitamiseksi. Tarkemmat tiedot löytyvät <a href="privacy.html">tietosuojakäytännöstä</a>.</p>
+      </div>
     </section>
 
-    <section class="card warning">
-      <h2>Turvallisuus</h2>
-      <p>Sinilevätilanne on riippumaton tietopalvelu, ei viranomaispalvelu tai terveydellinen arvio. Havainnot voivat olla viivästyneitä, puutteellisia tai virheellisiä ja paikallinen tilanne voi muuttua nopeasti.</p>
-      <p>Noudata aina paikallisia kieltoja ja viranomaisohjeita. Älä käytä sovellusta hätätilanteessa tai ainoana terveys- tai turvallisuuspäätöksen perusteena.</p>
-      <p><a href="https://www.vesi.fi/sinilevatilanne/">Viranomaisen sinileväohjeet</a></p>
+    <section class="card warning" aria-labelledby="rajat">
+      <h2 id="rajat">Mitä sovellus tekee – ja mitä se ei tee</h2>
+      <p>Sinilevätilanne on Eetu Mänttärin kehittämä riippumaton sovellus. Se ei ole Suomen ympäristökeskuksen, Järvi-meriwikin, Vesi.fi:n tai Applen julkaisema, ylläpitämä tai hyväksymä.</p>
+      <p>Sovellus kokoaa Järvi-meriwikin julkisia havaintoja kartalle. Havainnot ovat suuntaa-antavia ja voivat olla puutteellisia, viivästyneitä tai virheellisiä. Paikallinen tilanne voi muuttua nopeasti myös havaintopaikan sisällä.</p>
+      <p><strong>Sovellus ei ole viranomaispalvelu, laboratoriomittaus eikä terveys- tai turvallisuusarvio.</strong> Älä tee uimista tai veden käyttöä koskevaa päätöstä pelkästään sovelluksen perusteella. Noudata paikallisia kieltoja ja viranomaisohjeita.</p>
+      <p><a href="https://www.vesi.fi/sinilevatilanne/" rel="external">Lue viranomaisen sinileväohjeet</a></p>
+      <p class="muted">Mikään tällä sivulla ei rajoita kuluttajalle pakottavan lainsäädännön perusteella kuuluvia oikeuksia.</p>
     </section>
 
-    <section class="card">
-      <h2>Tietosuoja ja lähde</h2>
-      <p><a href="privacy.html">Lue Sinilevätilanteen tietosuojakäytäntö</a></p>
-      <p>Havaintoaineisto: Järvi-meriwikin teksti- ja numerohavainnot, CC BY 3.0. Kartta: Apple Maps.</p>
+    <section class="card" aria-labelledby="aineisto">
+      <h2 id="aineisto">Aineisto, kartta ja lisenssi</h2>
+      <div class="facts">
+        <div>
+          <h3>Havainnot</h3>
+          <p>Järvi-meriwikin teksti- ja numerohavainnot. Sovellus ei lataa Järvi-meriwikin kuvia.</p>
+        </div>
+        <div>
+          <h3>Kartta</h3>
+          <p>Apple Maps. Kartan saatavuuteen ja sisältöön sovelletaan Applen omia ehtoja.</p>
+        </div>
+        <div>
+          <h3>Lisenssi</h3>
+          <p>Teksti- ja numerosisältöä käytetään CC BY 3.0 -lisenssin ehtojen mukaisesti.</p>
+        </div>
+      </div>
+      <p class="link-row">
+        <a href="https://www.jarviwiki.fi/wiki/Sinilev%C3%A4tilanne" rel="external">Alkuperäinen Sinilevätilanne</a>
+        <a href="https://www.jarviwiki.fi/wiki/J%C3%A4rviwiki%3ACopyrights" rel="external">Järvi-meriwikin tekijänoikeustiedot</a>
+        <a href="https://creativecommons.org/licenses/by/3.0/deed.fi" rel="external">CC BY 3.0</a>
+      </p>
+    </section>
+
+    <section class="card compact-card" aria-labelledby="tietosuoja">
+      <div>
+        <h2 id="tietosuoja">Tietosuoja selkeästi</h2>
+        <p>Sovelluksessa ei ole käyttäjätiliä, mainoksia, kehittäjän lisäämää analytiikkaa tai käyttäjän seurantaa. Sähköpostituen käsittely on kuvattu erikseen.</p>
+      </div>
+      <a class="text-button" href="privacy.html">Lue tietosuojakäytäntö</a>
     </section>
   </main>
 
   <footer class="container footer">
-    <p>© 2026 Eetu Mänttäri · <a href="privacy.html">Tietosuoja</a> · <a href="https://github.com/edman01/sinilevatilanne-support">GitHub</a></p>
+    <p>© 2026 Eetu Mänttäri</p>
+    <p><a href="mailto:edman.build@gmail.com">edman.build@gmail.com</a> · <a href="privacy.html">Tietosuoja</a></p>
   </footer>
 </body>
 </html>

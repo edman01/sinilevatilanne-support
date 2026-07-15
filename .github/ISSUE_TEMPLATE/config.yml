@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Sähköpostituki
+    url: https://edman01.github.io/sinilevatilanne-support/
+    about: Tukipyynnöt käsitellään vain sähköpostitse. Osoite löytyy tukisivulta.
   - name: Tietosuojakäytäntö
     url: https://edman01.github.io/sinilevatilanne-support/privacy.html
-    about: Lue sovelluksen tietosuojakäytäntö.
+    about: Lue sovelluksen tietosuojakäytäntö ja rekisteröidyn oikeudet.
