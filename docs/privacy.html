@@ -34,7 +34,7 @@
       </nav>
 
       <div class="hero-copy">
-        <p class="eyebrow">Tietosuojakäytäntö · versio 1.0</p>
+        <p class="eyebrow">Tietosuojakäytäntö · versio 1.1</p>
         <h1>Tietosuoja selkeästi.</h1>
         <p class="lead">Tässä kerrotaan, mitä tietoja Sinilevätilanne käsittelee, miksi niitä käsitellään ja mitä oikeuksia sinulla on.</p>
         <p class="updated">Voimassa 15.7.2026 alkaen · päivitetty 15.7.2026</p>
@@ -47,7 +47,7 @@
       <h2 id="tiivistelma">Lyhyesti</h2>
       <ul class="check-list">
         <li>Sovelluksessa ei ole käyttäjätiliä, mainoksia, kehittäjän lisäämää analytiikkaa, seurantaa tai sijaintilupaa.</li>
-        <li>Sovellus hakee havaintotiedot Järvi-meriwikistä ja näyttää kartan Apple Mapsilla.</li>
+        <li>Sovellus hakee havaintotiedot Järvi-meriwikistä ja Sykkeen kansalaishavaintorajapinnasta sekä näyttää kartan Apple Mapsilla.</li>
         <li>Kehittäjä saa henkilötietoja suoraan vain, jos lähetät vapaaehtoisesti sähköpostia tukeen.</li>
         <li>Tukitietoja ei myydä, käytetä mainontaan tai yhdistetä käyttäjäprofiiliksi.</li>
       </ul>
@@ -83,11 +83,15 @@
       <p>Kun valitset navigoinnin havaintopaikalle, sovellus välittää valitun kohteen koordinaatit laitteen oletusnavigaattorille. Sinilevätilanne ei itse pyydä tai käsittele nykyistä sijaintiasi. Navigointisovellus käsittelee tietoja oman tietosuojakäytäntönsä mukaisesti.</p>
     </section>
 
-    <section class="card" aria-labelledby="jarviwiki">
-      <h2 id="jarviwiki">Järvi-meriwikin verkkoyhteys</h2>
-      <p>Sovellus hakee julkiset sinilevähavainnot HTTPS-yhteydellä Järvi-meriwikin rajapinnasta. Järvi-meriwikin ylläpitäjä Suomen ympäristökeskus (Syke) kertoo käsittelevänsä verkkopalvelun teknisiä tietoja, kuten IP-osoitetta, pyyntöaikaa, käytettyä palvelua, selainta ja käyttöjärjestelmää, palvelun toimintaan ja tilastointiin.</p>
-      <p>Kehittäjä ei saa Järvi-meriwikin yksilöityjä palvelinlokitietoja eikä päätä niiden säilytysajoista. Syke vastaa omasta käsittelystään oman tietosuojailmoituksensa mukaisesti.</p>
-      <p><a href="https://www.jarviwiki.fi/wiki/J%C3%A4rviwiki%3ATietosuojak%C3%A4yt%C3%A4nt%C3%B6" rel="external">Järvi-meriwikin tietosuojailmoitus</a></p>
+    <section class="card" aria-labelledby="havaintolahteet">
+      <h2 id="havaintolahteet">Havaintolähteiden verkkoyhteydet</h2>
+      <p>Sovellus hakee julkiset sinilevähavainnot HTTPS-yhteydellä Järvi-meriwikistä ja Suomen ympäristökeskuksen (Syke) kansalaishavaintorajapinnasta. Palvelimille voi välittyä teknisiä tietoja, kuten IP-osoite, pyynnön ajankohta ja käytetty palvelu.</p>
+      <p>Kansalaishavainnoista sovellus käyttää vain levämäärää, aikaa ja sijaintia. Rajapinnan vapaita tekstejä, kuvia tai ilmoittajan tietoja ei näytetä eikä tallenneta.</p>
+      <p>Kehittäjä ei saa lähdepalvelujen yksilöityjä palvelinlokitietoja eikä päätä niiden säilytysajoista. Syke vastaa omasta käsittelystään oman tietosuojailmoituksensa mukaisesti.</p>
+      <p class="link-row">
+        <a href="https://www.jarviwiki.fi/wiki/J%C3%A4rviwiki%3ATietosuojak%C3%A4yt%C3%A4nt%C3%B6" rel="external">Järvi-meriwikin tietosuojailmoitus</a>
+        <a href="https://www.vesi.fi/sinilevatilanne/" rel="external">Vesi.fi:n Sinilevätilanne</a>
+      </p>
     </section>
 
     <section class="card" aria-labelledby="apple">
