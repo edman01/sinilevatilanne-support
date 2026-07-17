@@ -3,88 +3,231 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#1a1a1b" media="(prefers-color-scheme: dark)">
-  <title>Sinilevätilanne – Tuki</title>
-  <meta name="description" content="Sinilevätilanne-sovelluksen tuki iPhonelle, iPadille ja Apple Watchille.">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#eef9ff">
+  <meta name="apple-itunes-app" content="app-id=6791301861">
+  <title>Sinilevätilanne – tuoreet sinilevähavainnot kartalla</title>
+  <meta name="description" content="Tarkista Suomen tuoreet sinilevähavainnot selkeällä Apple Maps -kartalla. Sinilevätilanne toimii iPhonella, iPadilla ja Apple Watchilla.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sinilevätilanne – tuoreet havainnot yhdellä kartalla">
+  <meta property="og:description" content="Tarkista Järvi-meriwikin ja Vesi.fi / Sykkeen tuoreet sinilevähavainnot ennen rannalle tai vesille lähtöä.">
+  <meta property="og:image" content="https://edman01.github.io/sinilevatilanne-support/screenshots/map-coast.png">
+  <meta property="og:url" content="https://edman01.github.io/sinilevatilanne-support/">
   <link rel="canonical" href="https://edman01.github.io/sinilevatilanne-support/">
+  <link rel="preload" as="image" type="image/avif" href="screenshots/map-coast-720.avif" imagesrcset="screenshots/map-coast-480.avif 480w, screenshots/map-coast-720.avif 720w, screenshots/map-coast-1000.avif 1000w" imagesizes="(max-width: 860px) 80vw, 348px">
   <link rel="icon" href="app-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="app-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="marketing-page">
   <a class="skip-link" href="#sisalto">Siirry sisältöön</a>
 
-  <header class="hero">
-    <div class="container">
-      <nav class="topbar" aria-label="Päänavigaatio">
-        <a class="brand" href="index.html" aria-label="Sinilevätilanne-tuki">
-          <span class="app-mark" aria-hidden="true">
-            <img src="app-icon.png" alt="">
-          </span>
-          <span>Sinilevätilanne</span>
+  <header class="site-header">
+    <nav class="wide-container topbar" aria-label="Päänavigaatio">
+      <a class="brand" href="index.html" aria-label="Sinilevätilanne – etusivu">
+        <span class="app-mark" aria-hidden="true"><img src="app-icon.png" alt=""></span>
+        <span>Sinilevätilanne</span>
+      </a>
+      <div class="nav-links marketing-nav">
+        <a class="desktop-link" href="#ominaisuudet">Ominaisuudet</a>
+        <a href="support.html">Tuki</a>
+        <a class="desktop-link" href="privacy.html">Tietosuoja</a>
+        <a class="desktop-link" href="terms.html">Käyttöehdot</a>
+        <a class="nav-store" href="https://apps.apple.com/us/app/sinilev%C3%A4tilanne/id6791301861" aria-label="Lataa Sinilevätilanne App Storesta">
+          <span class="full-label">Lataa App Storesta</span><span class="short-label">App Store</span>
         </a>
-        <div class="nav-links">
-          <a aria-current="page" href="index.html">Tuki</a>
-          <a href="privacy.html">Tietosuoja</a>
-          <a href="terms.html">Ehdot</a>
-        </div>
-      </nav>
-
-      <div class="hero-copy">
-        <p class="eyebrow">iPhone · iPad · Apple Watch</p>
-        <h1>Tuki</h1>
-        <p class="lead">Sinilevätilanteen itsenäinen kehittäjä on Eetu Mänttäri. Sovellusta koskevat tukipyynnöt käsitellään sähköpostitse.</p>
       </div>
-    </div>
+    </nav>
   </header>
 
-  <main id="sisalto" class="container">
-    <section class="card contact-card" aria-labelledby="yhteys">
-      <h2 id="yhteys">Ota yhteyttä</h2>
-      <p>Voit lähettää kysymykset, virheilmoitukset ja palautteen osoitteeseen:</p>
-      <p class="email"><a href="mailto:edman.build@gmail.com?subject=Sinilev%C3%A4tilanne%20%E2%80%93%20tuki">edman.build@gmail.com</a></p>
-      <p><a class="button" href="mailto:edman.build@gmail.com?subject=Sinilev%C3%A4tilanne%20%E2%80%93%20tuki">Lähetä sähköpostia</a></p>
-      <p class="muted">Kerro viestissä sovellusversio, käyttämäsi laite sekä iOS-, iPadOS- tai watchOS-versio. Liitä lyhyt kuvaus ongelmasta ja tarvittaessa kuvakaappaus. Älä lähetä salasanoja tai muita arkaluonteisia tietoja.</p>
-    </section>
+  <main id="sisalto">
+    <section class="marketing-hero">
+      <div class="wide-container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">iPhone · iPad · Apple Watch</p>
+          <h1>Sinilevätilanne.<br>Yhdellä kartalla.</h1>
+          <p class="hero-lead">Näe Järvi-meriwikin ja Vesi.fi-palvelun tuoreimmat havainnot ennen uintia, veneilyä tai rannalle lähtöä.</p>
+          <div class="hero-actions">
+            <a class="app-store-button" href="https://apps.apple.com/us/app/sinilev%C3%A4tilanne/id6791301861" aria-label="Lataa Sinilevätilanne App Storesta">
+              <span class="apple-symbol" aria-hidden="true"></span>
+              <span><small>Lataa</small>App Storesta</span>
+            </a>
+            <a class="secondary-button" href="#ominaisuudet">Tutustu ominaisuuksiin</a>
+          </div>
+          <ul class="trust-list" aria-label="Sovelluksen tärkeät tiedot">
+            <li>Vain viimeisen 7 vuorokauden havainnot</li>
+            <li>Ei käyttäjätiliä</li>
+            <li>Ei mainoksia tai seurantaa</li>
+          </ul>
+          <p class="hero-disclaimer">Ei viranomaispalvelu – tarkista vesi aina paikan päällä.</p>
+        </div>
 
-    <section class="card" aria-labelledby="sovellus">
-      <h2 id="sovellus">Sovelluksesta</h2>
-      <p>Sinilevätilanne näyttää Järvi-meriwikin seurantahavaintoja ja Vesi.fi:n kansalaishavaintoja Apple Maps -kartalla.</p>
-      <div class="facts" aria-label="Tuetut laitteet">
-        <div>
-          <h3>iPhone</h3>
-          <p>Kartta, viimeisimmät havainnot, havaintojen tiedot ja reittiohjeet.</p>
-        </div>
-        <div>
-          <h3>iPad</h3>
-          <p>Suurelle näytölle mukautuva kartta ja piilotettava havaintosivupalkki.</p>
-        </div>
-        <div>
-          <h3>Apple Watch</h3>
-          <p>Havaintolista, kartta ja havaintojen tiedot suoraan kellossa.</p>
+        <div class="hero-visual">
+          <div class="hero-orb hero-orb-blue" aria-hidden="true"></div>
+          <div class="hero-orb hero-orb-green" aria-hidden="true"></div>
+          <figure class="phone-shot hero-phone">
+            <picture>
+              <source type="image/avif" srcset="screenshots/map-coast-480.avif 480w, screenshots/map-coast-720.avif 720w, screenshots/map-coast-1000.avif 1000w" sizes="(max-width: 860px) 80vw, 348px">
+              <img src="screenshots/map-coast.png" width="1320" height="2868" alt="Lounais-Suomen karttanäkymä, jossa näkyy eri tasoisia sinilevähavaintoja." fetchpriority="high">
+            </picture>
+          </figure>
+          <div class="floating-status" aria-hidden="true">
+            <span class="status-dot status-blue"></span>
+            <span class="status-dot status-green"></span>
+            <span class="status-dot status-yellow"></span>
+            <span class="status-dot status-red"></span>
+            <strong>Neljä selkeää levätasoa</strong>
+          </div>
         </div>
       </div>
-      <p>Sovellus on itsenäinen eikä viranomaispalvelu. Havainnot ovat suuntaa-antavia, joten tarkista tilanne paikan päällä ja noudata viranomaisohjeita.</p>
-      <p class="link-row">
-        <a href="https://www.jarviwiki.fi/wiki/Sinilev%C3%A4tilanne" rel="external">Järvi-meriwikin Sinilevätilanne</a>
-        <a href="https://www.vesi.fi/sinilevatilanne/" rel="external">Vesi.fi:n Sinilevätilanne</a>
-      </p>
     </section>
 
-    <section class="card compact-card" aria-labelledby="tietosuoja">
-      <div>
-        <h2 id="tietosuoja">Tietosuoja</h2>
-        <p>Sovelluksen kehittäjä ei kerää sovelluksen käyttäjistä henkilötietoja. Sovelluksessa ei ole käyttäjätilejä, mainoksia, analytiikkaa tai seurantaa.</p>
+    <section class="fact-strip" aria-label="Sovelluksen yhteenveto">
+      <div class="wide-container fact-strip-grid">
+        <div><strong>Yksi kartta</strong><span>Järvi-meriwiki ja Vesi.fi / SYKE</span></div>
+        <div><strong>Tuoreet tiedot</strong><span>Enintään seitsemän vuorokauden ajalta</span></div>
+        <div><strong>Kolme laitetta</strong><span>iPhone, iPad ja Apple Watch</span></div>
       </div>
-      <a class="text-button" href="privacy.html">Lue tietosuojakäytäntö</a>
+    </section>
+
+    <section id="ominaisuudet" class="section wide-container">
+      <div class="section-heading">
+        <p class="eyebrow">Kaikki olennainen</p>
+        <h2>Tilanne selviää muutamassa sekunnissa.</h2>
+        <p>Värikoodatut havainnot, tarkemmat tiedot ja reittiohjeet ovat helposti löydettävissä tutulta Apple Maps -kartalta.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Koko Suomi yhdellä silmäyksellä</h3>
+          <p>Havaintopaikat ryhmitellään kartan mittakaavan mukaan, joten sekä kokonaiskuva että lähialue löytyvät nopeasti.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Neljä selkeää levätasoa</h3>
+          <p>Ei levää, hieman levää, runsaasti levää ja erittäin runsaasti levää erottuvat sekä värillä että tekstillä.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Havainnon aika ja lähde</h3>
+          <p>Avaa piste ja tarkista luokitus, havaintoaika, ylläpitäjä sekä alkuperäinen tietolähde.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">04</span>
+          <h3>Paikannus ja reittiohjeet</h3>
+          <p>Keskitä kartta omaan sijaintiin vain pyynnöstä ja avaa reitti valittuun havaintopaikkaan.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">05</span>
+          <h3>Kartta tilanteen mukaan</h3>
+          <p>Valitse vaalea, tumma tai satelliittikartta ympäristön ja oman mieltymyksen mukaan.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">06</span>
+          <h3>Ei tilejä tai seurantaa</h3>
+          <p>Sovellus avautuu suoraan kartalle ilman rekisteröitymistä, mainoksia, analytiikkaa tai käyttäjäseurantaa.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sovellus" class="showcase-section">
+      <div class="wide-container showcase-grid">
+        <figure class="phone-shot showcase-phone">
+          <picture>
+            <source type="image/avif" srcset="screenshots/map-finland-480.avif 480w, screenshots/map-finland-720.avif 720w, screenshots/map-finland-1000.avif 1000w" sizes="(max-width: 860px) 76vw, 360px">
+            <img src="screenshots/map-finland.png" width="1320" height="2868" alt="Sinilevätilanteen kartta, jossa koko Suomen havaintopaikat näkyvät värikoodattuina ryhminä." loading="lazy" decoding="async">
+          </picture>
+        </figure>
+        <div class="showcase-copy">
+          <p class="eyebrow">Kokonaiskuva</p>
+          <h2>Näe Suomen tilanne yhdellä kartalla.</h2>
+          <p>Sovellus kokoaa Järvi-meriwikin seurantapisteet ja Vesi.fi / SYKEn kansalaishavainnot samaan näkymään. Kartan ryhmät pitävät kokonaisuuden selkeänä myös silloin, kun havaintoja on paljon.</p>
+          <ul class="check-list">
+            <li>Enintään seitsemän vuorokauden ikäiset havainnot</li>
+            <li>Selvästi erotellut kansalaishavainnot</li>
+            <li>Automaattisesti päivittyvä karttanäkymä</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase-section showcase-alt">
+      <div class="wide-container showcase-grid reverse">
+        <figure class="phone-shot showcase-phone">
+          <picture>
+            <source type="image/avif" srcset="screenshots/observation-detail-480.avif 480w, screenshots/observation-detail-720.avif 720w, screenshots/observation-detail-1000.avif 1000w" sizes="(max-width: 860px) 76vw, 360px">
+            <img src="screenshots/observation-detail.png" width="1320" height="2868" alt="Havainnon tietonäkymä, jossa kansalaishavainto on luokiteltu erittäin runsaaksi leväksi ja lähteeksi on merkitty Vesi.fi / SYKE." loading="lazy" decoding="async">
+          </picture>
+        </figure>
+        <div class="showcase-copy">
+          <p class="eyebrow">Tarkemmat tiedot</p>
+          <h2>Avaa havainto ja tarkista yksityiskohdat.</h2>
+          <p>Havaintokortti näyttää paikan, leväluokituksen, ajankohdan ja tietolähteen ilman turhaa etsimistä. Valitusta pisteestä voi avata myös reittiohjeet tai alkuperäisen tietolähteen.</p>
+          <ul class="check-list">
+            <li>Havaintoaika helposti luettavassa muodossa</li>
+            <li>Lähde ja havainnon varmentamattomuus näkyvissä</li>
+            <li>Reitti havaintopaikalle yhdellä painalluksella</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wide-container device-section">
+      <div class="section-heading centered">
+        <p class="eyebrow">Mukana kaikkialla</p>
+        <h2>Suunniteltu iPhonelle, iPadille ja Apple Watchille.</h2>
+        <p>Kartta mukautuu suurelle näytölle, ja kellossa lähimmät sekä tuoreimmat havainnot kulkevat mukana ranteessa.</p>
+      </div>
+      <div class="device-grid">
+        <article><h3>iPhone</h3><p>Nopea kartta, havaintojen tiedot ja reittiohjeet.</p></article>
+        <article><h3>iPad</h3><p>Laaja karttanäkymä ja piilotettava havaintosivupalkki.</p></article>
+        <article><h3>Apple Watch</h3><p>Tuoreimmat havainnot ja kartta suoraan ranteessa.</p></article>
+      </div>
+    </section>
+
+    <section class="source-band">
+      <div class="wide-container source-band-grid">
+        <div>
+          <p class="eyebrow">Avoimeen ympäristötietoon perustuva</p>
+          <h2>Järvi-meriwiki ja Vesi.fi / SYKE samassa näkymässä.</h2>
+        </div>
+        <p>Sinilevätilanne on itsenäinen sovellus, ei viranomaispalvelu tai terveydellinen arvio. Tilanne voi muuttua nopeasti ja vaihdella saman vesistön eri kohdissa. Vesi tulee aina tarkistaa paikan päällä.</p>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wide-container final-cta-card">
+        <img src="app-icon.png" width="120" height="120" alt="Sinilevätilanne-sovelluksen kuvake">
+        <div>
+          <p class="eyebrow">Valmiina vesille</p>
+          <h2>Tarkista tilanne ennen seuraavaa uinti- tai venereissua.</h2>
+          <p>Tuoreet havainnot, selkeä kartta ja tarvitsemasi tiedot yhdessä sovelluksessa.</p>
+        </div>
+        <a class="app-store-button" href="https://apps.apple.com/us/app/sinilev%C3%A4tilanne/id6791301861" aria-label="Lataa Sinilevätilanne App Storesta">
+          <span class="apple-symbol" aria-hidden="true"></span>
+          <span><small>Lataa</small>App Storesta</span>
+        </a>
+      </div>
     </section>
   </main>
 
-  <footer class="container footer">
-    <p>© 2026 Eetu Mänttäri</p>
-    <p><a href="mailto:edman.build@gmail.com">edman.build@gmail.com</a> · <a href="privacy.html">Tietosuoja</a> · <a href="terms.html">Ehdot</a></p>
+  <footer class="site-footer">
+    <div class="wide-container footer-grid">
+      <div class="footer-brand">
+        <img src="app-icon.png" width="48" height="48" alt="">
+        <div><strong>Sinilevätilanne</strong><span>Tuoreet havainnot helposti kartalla.</span></div>
+      </div>
+      <nav aria-label="Alatunnisteen linkit">
+        <a href="index.html">Etusivu</a>
+        <a href="#ominaisuudet">Ominaisuudet</a>
+        <a href="support.html">Tuki</a>
+        <a href="privacy.html">Tietosuoja</a>
+        <a href="terms.html">Käyttöehdot</a>
+        <a href="https://apps.apple.com/us/app/sinilev%C3%A4tilanne/id6791301861">App Store</a>
+      </nav>
+      <p>© 2026 Eetu Mänttäri</p>
+    </div>
   </footer>
 </body>
 </html>
