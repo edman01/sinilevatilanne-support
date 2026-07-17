@@ -1,6 +1,6 @@
 # Sinilevätilanne – tuki ja tietosuoja
 
-Sinilevätilanne iOS -sovelluksen julkiset suomenkieliset tuki- ja tietosuojasivut.
+Sinilevätilanne-sovelluksen julkiset suomenkieliset tuki-, tietosuoja- ja käyttöehtosivut iPhonelle, iPadille ja Apple Watchille.
 
 - Tuki: https://edman01.github.io/sinilevatilanne-support/
 - Tietosuojakäytäntö: https://edman01.github.io/sinilevatilanne-support/privacy.html
