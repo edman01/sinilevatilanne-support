@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://edman01.github.io/sinilevatilanne-support/sitemap.xml

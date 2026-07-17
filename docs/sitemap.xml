@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://edman01.github.io/sinilevatilanne-support/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <image:image>
+      <image:loc>https://edman01.github.io/sinilevatilanne-support/screenshots/map-coast.png</image:loc>
+      <image:caption>Sinilevätilanteen kartta, jossa tuoreet havainnot näkyvät värikoodattuina.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://edman01.github.io/sinilevatilanne-support/screenshots/map-finland.png</image:loc>
+      <image:caption>Koko Suomen sinilevähavainnot Apple Maps -kartalla.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://edman01.github.io/sinilevatilanne-support/screenshots/observation-detail.png</image:loc>
+      <image:caption>Sinilevähavainnon luokitus, ajankohta ja tietolähde sovelluksessa.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://edman01.github.io/sinilevatilanne-support/support.html</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://edman01.github.io/sinilevatilanne-support/privacy.html</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://edman01.github.io/sinilevatilanne-support/terms.html</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+</urlset>
