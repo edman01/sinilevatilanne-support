@@ -458,7 +458,6 @@ h3 {
 
 .hero-phone {
   width: min(100%, 348px);
-  transform: rotate(1.2deg);
 }
 
 .hero-orb {
@@ -595,13 +594,13 @@ h3 {
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 
 .feature-card {
   position: relative;
-  min-height: 246px;
+  min-height: 220px;
   padding: 28px;
   overflow: hidden;
   background:
