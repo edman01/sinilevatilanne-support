@@ -134,8 +134,8 @@
       <div class="wide-container hero-grid">
         <div class="hero-content">
           <p class="eyebrow">Ilmainen · Ei mainoksia</p>
-          <h1>Tuoreimmat havainnot kartalla.</h1>
-          <p class="hero-lead">Sinilevätilanne näyttää viimeisen viikon havainnot Apple Maps -kartalla iPhonessa, iPadissa ja Apple Watchissa.</p>
+          <h1>Tuoreimmat sinilevähavainnot kartalla.</h1>
+          <p class="hero-lead">Sinilevätilanne näyttää viimeisen viikon levähavainnot Apple Maps -kartalla iPhonessa, iPadissa ja Apple Watchissa.</p>
           <div class="hero-actions">
             <a class="app-store-button" href="https://apps.apple.com/us/app/sinilev%C3%A4tilanne/id6791301861" aria-label="Lataa Sinilevätilanne App Storesta">
               <span class="apple-symbol" aria-hidden="true"></span>
@@ -154,12 +154,14 @@
               <img src="screenshots/map-coast.png" width="1320" height="2868" alt="Lounais-Suomen karttanäkymä, jossa näkyy eri tasoisia sinilevähavaintoja." fetchpriority="high">
             </picture>
           </figure>
-          <div class="floating-status" aria-hidden="true">
-            <span class="status-dot status-blue"></span>
-            <span class="status-dot status-green"></span>
-            <span class="status-dot status-yellow"></span>
-            <span class="status-dot status-red"></span>
+          <div class="floating-status" aria-label="Levämäärän värikoodit">
             <strong>Levämäärän värikoodit</strong>
+            <ul class="status-legend">
+              <li><span class="status-dot status-blue" aria-hidden="true"></span><span>Ei levää</span></li>
+              <li><span class="status-dot status-green" aria-hidden="true"></span><span>Hieman levää</span></li>
+              <li><span class="status-dot status-yellow" aria-hidden="true"></span><span>Runsaasti levää</span></li>
+              <li><span class="status-dot status-red" aria-hidden="true"></span><span>Erittäin runsaasti levää</span></li>
+            </ul>
           </div>
         </div>
       </div>
