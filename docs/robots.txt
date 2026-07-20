@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://edman01.github.io/sinilevatilanne-support/sitemap.xml
-Sitemap: https://edman01.github.io/sinilevatilanne-support/sitemap.txt
+Sitemap: https://edman01.github.io/sinilevatilanne/sitemap.xml
+Sitemap: https://edman01.github.io/sinilevatilanne/sitemap.txt

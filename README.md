@@ -2,10 +2,10 @@
 
 Sinilevätilanne-sovelluksen julkinen markkinointisivu sekä suomenkieliset tuki-, tietosuoja- ja käyttöehtosivut iPhonelle, iPadille ja Apple Watchille.
 
-- Etusivu: https://edman01.github.io/sinilevatilanne-support/
-- Tuki: https://edman01.github.io/sinilevatilanne-support/support.html
-- Tietosuojakäytäntö: https://edman01.github.io/sinilevatilanne-support/privacy.html
-- Käyttöehdot: https://edman01.github.io/sinilevatilanne-support/terms.html
+- Etusivu: https://edman01.github.io/sinilevatilanne/
+- Tuki: https://edman01.github.io/sinilevatilanne/support.html
+- Tietosuojakäytäntö: https://edman01.github.io/sinilevatilanne/privacy.html
+- Käyttöehdot: https://edman01.github.io/sinilevatilanne/terms.html
 - Sähköpostituki: edman.build@gmail.com
 
 Tukipyynnöt käsitellään vain sähköpostitse. GitHub Issues ei ole tukikanava.

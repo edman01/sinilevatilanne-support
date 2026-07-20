@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://edman01.github.io/sinilevatilanne-support/</loc>
+    <loc>https://edman01.github.io/sinilevatilanne/</loc>
     <lastmod>2026-07-17</lastmod>
     <image:image>
-      <image:loc>https://edman01.github.io/sinilevatilanne-support/screenshots/map-coast.png</image:loc>
+      <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/map-coast.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://edman01.github.io/sinilevatilanne-support/screenshots/map-finland.png</image:loc>
+      <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/map-finland.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://edman01.github.io/sinilevatilanne-support/screenshots/observation-detail.png</image:loc>
+      <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/observation-detail.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://edman01.github.io/sinilevatilanne-support/support.html</loc>
+    <loc>https://edman01.github.io/sinilevatilanne/support.html</loc>
     <lastmod>2026-07-17</lastmod>
   </url>
   <url>
-    <loc>https://edman01.github.io/sinilevatilanne-support/privacy.html</loc>
+    <loc>https://edman01.github.io/sinilevatilanne/privacy.html</loc>
     <lastmod>2026-07-17</lastmod>
   </url>
   <url>
-    <loc>https://edman01.github.io/sinilevatilanne-support/terms.html</loc>
+    <loc>https://edman01.github.io/sinilevatilanne/terms.html</loc>
     <lastmod>2026-07-17</lastmod>
   </url>
 </urlset>
