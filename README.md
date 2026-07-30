@@ -1,6 +1,6 @@
 # Sinilevätilanne – verkkosivusto
 
-Sinilevätilanne-sovelluksen julkinen markkinointisivu sekä suomenkieliset tuki-, tietosuoja- ja käyttöehtosivut iPhonelle, iPadille ja Apple Watchille.
+Sinilevätilanne-sovelluksen julkinen markkinointisivu sekä suomenkieliset tuki-, tietosuoja- ja käyttöehtosivut iPhonelle, iPadille, Apple Watchille ja Macille.
 
 - Etusivu: https://edman01.github.io/sinilevatilanne/
 - Tuki: https://edman01.github.io/sinilevatilanne/support.html
