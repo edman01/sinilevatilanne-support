@@ -713,13 +713,13 @@ h3 {
 
 .device-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
 }
 
 .device-grid article {
   min-height: 190px;
-  padding: 25px;
+  padding: 29px;
   background: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--radius);
