@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fi">
 <head>
   <meta charset="utf-8">
@@ -9,12 +9,12 @@
   <meta name="author" content="Eetu Mänttäri">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <title>Sinilevätilanne – Tietosuojakäytäntö</title>
-  <meta name="description" content="Sinilevätilanne-sovelluksen tietosuojakäytäntö iPhonelle, iPadille, Apple Watchille ja Macille.">
+  <meta name="description" content="Sinilevätilanne-sovelluksen tietosuojakäytäntö Androidille, iPhonelle, iPadille, Apple Watchille ja Macille.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fi_FI">
   <meta property="og:site_name" content="Sinilevätilanne">
   <meta property="og:title" content="Sinilevätilanne – tietosuojakäytäntö">
-  <meta property="og:description" content="Miten Sinilevätilanne käsittelee tietoja iPhonella, iPadilla, Apple Watchilla, Macilla ja sähköpostituessa.">
+  <meta property="og:description" content="Miten Sinilevätilanne sekä Androidin ja Apple-laitteiden kartta- ja sijaintipalvelut käsittelevät tietoja.">
   <meta property="og:image" content="https://edman01.github.io/sinilevatilanne/app-icon.png">
   <meta property="og:image:width" content="256">
   <meta property="og:image:height" content="256">
@@ -25,7 +25,7 @@
   <link rel="sitemap" type="application/xml" href="https://edman01.github.io/sinilevatilanne/sitemap.xml">
   <link rel="icon" href="app-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="app-icon.png">
-  <link rel="stylesheet" href="styles.css?v=20260829-7">
+  <link rel="stylesheet" href="styles.css?v=20260829-8">
 </head>
 <body>
   <a class="skip-link" href="#sisalto">Siirry sisältöön</a>
@@ -46,9 +46,9 @@
       </nav>
 
       <div class="legal-heading">
-        <p class="eyebrow">Tietosuojakäytäntö · versio 2.4</p>
+        <p class="eyebrow">Tietosuojakäytäntö · versio 2.5</p>
         <h1>Tietosuoja</h1>
-        <p class="lead">Sinilevätilanne ei kerää sovelluksen käytöstä analytiikkaa tai seurantatietoja.</p>
+        <p class="lead">Sinilevätilanteen kehittäjä ei käytä sovellusanalytiikkaa tai mainosseurantaa. Alustojen kartta- ja sijaintipalvelut käsittelevät teknisiä tietoja tässä kuvatusti.</p>
         <p class="updated">Päivitetty 29.8.2026</p>
       </div>
     </div>
@@ -57,19 +57,24 @@
   <main id="sisalto" class="container legal">
     <section class="card" aria-labelledby="sovellus">
       <h2 id="sovellus">Sovelluksessa käsiteltävät tiedot</h2>
-      <p>Sovelluksessa ei ole käyttäjätilejä, mainoksia, analytiikkaa tai seurantaa. Asetukset ja julkisten havaintojen välimuisti tallennetaan laitteelle. Välimuistin avulla viimeksi haettuja havaintoja voidaan näyttää ilman verkkoyhteyttä.</p>
-      <p>Sijaintia käytetään vain pyynnöstä kartan keskittämiseen. Sijaintia ei lähetetä sovelluksen kehittäjälle eikä siitä tallenneta sijaintihistoriaa. Reittiohjeita avattaessa havaintopaikan koordinaatit siirtyvät valittuun navigointisovellukseen.</p>
+      <p>Sovelluksessa ei ole käyttäjätilejä tai mainoksia, eikä siihen ole liitetty kehittäjän analytiikka- tai mainosseurantapalvelua. Asetukset ja julkisten havaintojen välimuisti tallennetaan laitteelle. Välimuistin avulla viimeksi haettuja havaintoja voidaan näyttää ilman verkkoyhteyttä.</p>
+      <p>Sijaintia käytetään vain käyttäjän pyynnöstä kartan keskittämiseen ja vain sovelluksen ollessa käytössä. Androidissa sovellus pyytää yhden sijaintituloksen Google Play servicesin Fused Location Provider -palvelulta. Sovellus toimii Androidissa käyttäjän myöntämällä likimääräisellä tai tarkalla sijaintiluvalla eikä pyydä taustasijaintia.</p>
+      <p>Sinilevätilanne ei lähetä saatua sijaintia kehittäjän palvelimelle eikä tallenna sijaintihistoriaa. Reittiohjeita avattaessa havaintopaikan koordinaatit siirtyvät käyttäjän valitsemaan navigointisovellukseen tai -palveluun.</p>
       <p>Havainnon ilmoittaminen avaa Järvi-meriwikin Havaintolähettimen selaimessa. Sovelluksen jakaminen avaa laitteen jakonäkymän. Kehittäjä ei saa näissä toiminnoissa lähetettyjä tietoja.</p>
     </section>
 
     <section class="card" aria-labelledby="palvelut">
       <h2 id="palvelut">Verkkopalvelut</h2>
-      <p>Havainnot haetaan Järvi-meriwikistä ja Suomen ympäristökeskuksen Vesi.fi-aineistosta. Kartan tarjoaa Apple Maps.</p>
-      <p>Näille palveluille voi välittyä verkkoyhteyden teknisiä tietoja, kuten IP-osoite ja pyynnön ajankohta. Sovelluksen kehittäjä ei saa palvelujen yksilöityjä lokitietoja. Palvelut käsittelevät tiedot omien tietosuojakäytäntöjensä mukaisesti.</p>
+      <p>Havainnot haetaan Järvi-meriwikistä ja Suomen ympäristökeskuksen Vesi.fi-aineistosta. Apple-versioissa kartan tarjoaa Apple Maps. Android-versiossa kartan tarjoaa Google Maps SDK for Android ja sijaintipyynnön käsittelee Google Play servicesin Fused Location Provider.</p>
+      <p>Googlen virallisen Maps SDK for Android -selosteen mukaan SDK kerää automaattisesti pyynnön ja laitteen metatietoja, kuten käyttöjärjestelmä- ja laitemallitiedot, SDK:n versio- ja koontitiedot, palautettujen tulosten määrän sekä sisäisen käyttöattribuutiotunnisteen. Googlen mukaan tätä sisäistä tunnistetta ei käytetä käyttäjän tunnistamiseen eikä mainonnan attribuutioon. Lisäksi SDK kerää SDK-koodin kaatumisten pinovedoksia ja kaatumismittareita, IP-osoitteen sekä Maps SDK -kohtaisen pseudonyymin tunnisteen. Kamerarajapintaa käytettäessä SDK voi kerätä myös kartan käyttötapahtumia, kuten kartan siirtämistä ja zoomaamista. Google käyttää tietoja palvelujensa ylläpitoon ja parantamiseen.</p>
+      <p>Verkkopalveluille voi lisäksi välittyä verkkoyhteyden teknisiä tietoja, kuten pyynnön ajankohta. Sovelluksen kehittäjä ei saa kartta- tai sijaintipalvelujen yksilöityjä lokitietoja. Kukin palvelu käsittelee tiedot oman tietosuojakäytäntönsä mukaisesti.</p>
       <p class="link-row">
         <a href="https://www.jarviwiki.fi/wiki/J%C3%A4rviwiki%3ATietosuojak%C3%A4yt%C3%A4nt%C3%B6" rel="external">Järvi-meriwikin tietosuoja</a>
         <a href="https://www.syke.fi/fi/tietoa-meista/tietosuoja" rel="external">Syken tietosuoja</a>
         <a href="https://www.apple.com/legal/privacy/fi/" rel="external">Applen tietosuoja</a>
+        <a href="https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure" rel="external">Google Maps SDK:n tietojen käsittely</a>
+        <a href="https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient" rel="external">Androidin Fused Location Provider</a>
+        <a href="https://policies.google.com/privacy?hl=fi" rel="external">Googlen tietosuojakäytäntö</a>
       </p>
     </section>
 
