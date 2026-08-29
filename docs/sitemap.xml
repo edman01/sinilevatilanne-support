@@ -16,6 +16,9 @@
     <image:image>
       <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/season-temperature.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/season-algae-ios.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/support.html</loc>

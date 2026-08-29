@@ -601,66 +601,33 @@ h3 {
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  gap: 16px;
 }
 
 .feature-card {
-  position: relative;
-  min-height: 220px;
-  padding: 28px;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 100% 0, rgba(76, 189, 236, 0.09), transparent 42%),
-    #ffffff;
+  min-height: 0;
+  padding: 26px 28px;
+  background: #ffffff;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
-  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
-}
-
-.feature-card:nth-child(2n) {
-  background:
-    radial-gradient(circle at 100% 0, rgba(131, 184, 35, 0.1), transparent 42%),
-    #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(17, 88, 121, 0.05);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .feature-card:hover {
   border-color: var(--border-strong);
-  box-shadow: 0 20px 52px rgba(17, 88, 121, 0.12);
-  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(17, 88, 121, 0.08);
 }
 
 .feature-card h3 {
-  margin-top: 34px;
-  font-size: 1.23rem;
+  margin: 0 0 9px;
+  font-size: 1.16rem;
 }
 
 .feature-card p {
   margin: 0;
   color: var(--muted);
   line-height: 1.58;
-}
-
-.feature-number {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 42px;
-  height: 30px;
-  padding-inline: 10px;
-  color: var(--brand-dark);
-  background: var(--blue-soft);
-  border: 1px solid rgba(0, 106, 157, 0.13);
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 820;
-  letter-spacing: 0.08em;
-}
-
-.feature-card:nth-child(2n) .feature-number {
-  color: var(--green);
-  background: var(--green-soft);
-  border-color: rgba(71, 116, 22, 0.13);
 }
 
 .showcase-section {
@@ -715,6 +682,29 @@ h3 {
   margin: 20px 0 0;
   color: var(--muted);
   font-size: 1.08rem;
+}
+
+.season-inline-chart {
+  margin: 28px 0 0;
+  padding: 14px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(17, 88, 121, 0.08);
+}
+
+.season-inline-chart figcaption {
+  margin: 0 2px 11px;
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 760;
+}
+
+.season-inline-chart img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 
 .device-section {
@@ -1424,10 +1414,6 @@ main.legal {
     padding: 24px;
   }
 
-  .feature-card h3 {
-    margin-top: 26px;
-  }
-
   .showcase-grid,
   .showcase-grid.reverse {
     gap: 38px;
@@ -1551,8 +1537,7 @@ main.legal {
     animation-iteration-count: 1 !important;
   }
 
-  .app-store-button:hover,
-  .feature-card:hover {
+  .app-store-button:hover {
     transform: none;
   }
 }
