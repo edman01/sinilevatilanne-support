@@ -13,6 +13,9 @@
     <image:image>
       <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/observation-detail.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/season-temperature.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/support.html</loc>
@@ -20,10 +23,10 @@
   </url>
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/privacy.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-29</lastmod>
   </url>
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/terms.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-29</lastmod>
   </url>
 </urlset>

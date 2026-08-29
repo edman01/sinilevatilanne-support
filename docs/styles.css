@@ -532,64 +532,6 @@ h3 {
   background: linear-gradient(145deg, rgba(168, 218, 84, 0.34), rgba(96, 156, 35, 0.08));
 }
 
-.floating-status {
-  position: absolute;
-  right: -2%;
-  bottom: 8%;
-  z-index: 4;
-  display: grid;
-  width: min(338px, calc(100% - 12px));
-  padding: 13px 15px 14px;
-  color: var(--ink-soft);
-  background: rgba(255, 255, 255, 0.94);
-  border: 1px solid var(--border);
-  border-radius: 17px;
-  box-shadow: 0 16px 42px rgba(17, 88, 121, 0.17);
-  font-size: 0.78rem;
-  line-height: 1.25;
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
-}
-
-.floating-status strong {
-  margin-bottom: 10px;
-  color: var(--ink);
-  font-size: 0.82rem;
-}
-
-.status-legend {
-  display: grid;
-  grid-template-columns: minmax(112px, 0.8fr) minmax(154px, 1.2fr);
-  align-items: start;
-  gap: 8px 14px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.status-legend li {
-  display: flex;
-  align-items: flex-start;
-  gap: 7px;
-  min-width: 0;
-  font-weight: 650;
-}
-
-.status-dot {
-  flex: 0 0 auto;
-  width: 15px;
-  height: 15px;
-  margin-top: 0.03em;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(11, 23, 32, 0.17);
-}
-
-.status-blue { background: #269abe; }
-.status-green { background: #86b823; }
-.status-yellow { background: #f1c900; }
-.status-red { background: #d90000; }
-
 /* Marketing content */
 
 .fact-strip {
@@ -773,44 +715,6 @@ h3 {
   margin: 20px 0 0;
   color: var(--muted);
   font-size: 1.08rem;
-}
-
-.check-list {
-  display: grid;
-  gap: 12px;
-  margin: 28px 0 0;
-  padding: 0;
-  color: var(--ink-soft);
-  list-style: none;
-}
-
-.check-list li {
-  position: relative;
-  padding-left: 32px;
-}
-
-.check-list li::before {
-  position: absolute;
-  top: 0.14em;
-  left: 0;
-  display: inline-grid;
-  place-items: center;
-  width: 22px;
-  height: 22px;
-  color: #ffffff;
-  background: var(--brand);
-  border-radius: 50%;
-  font-size: 0.78rem;
-  font-weight: 900;
-  content: "\2713";
-}
-
-.showcase-alt .check-list li::before {
-  background: var(--green);
-}
-
-.showcase-season .check-list li::before {
-  background: #df741d;
 }
 
 .device-section {
@@ -1331,10 +1235,6 @@ main.legal {
     width: min(80vw, 292px);
   }
 
-  .floating-status {
-    right: max(2%, 10px);
-  }
-
   .showcase-grid,
   .showcase-grid.reverse {
     grid-template-columns: 1fr;
@@ -1491,17 +1391,6 @@ main.legal {
     height: 225px;
   }
 
-  .floating-status {
-    right: 0;
-    bottom: 3%;
-    max-width: 235px;
-  }
-
-  .status-legend {
-    grid-template-columns: 1fr;
-    gap: 7px;
-  }
-
   .fact-strip-grid {
     grid-template-columns: 1fr;
     padding-block: 8px;
@@ -1634,13 +1523,6 @@ main.legal {
     width: min(82vw, 248px);
   }
 
-  .floating-status {
-    right: 50%;
-    width: max-content;
-    max-width: calc(100% - 8px);
-    transform: translateX(50%);
-  }
-
   .final-cta-card {
     justify-items: center;
     text-align: center;
@@ -1684,9 +1566,7 @@ main.legal {
     border: 1px solid CanvasText;
   }
 
-  .trust-list li::before,
-  .check-list li::before,
-  .status-dot {
+  .trust-list li::before {
     forced-color-adjust: none;
   }
 }
