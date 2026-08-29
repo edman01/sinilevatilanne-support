@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-08-29</lastmod>
     <image:image>
       <image:loc>https://edman01.github.io/sinilevatilanne/screenshots/map-coast.png</image:loc>
     </image:image>
@@ -16,14 +16,14 @@
   </url>
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/support.html</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-08-29</lastmod>
   </url>
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/privacy.html</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-30</lastmod>
   </url>
   <url>
     <loc>https://edman01.github.io/sinilevatilanne/terms.html</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-30</lastmod>
   </url>
 </urlset>

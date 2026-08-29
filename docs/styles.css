@@ -326,7 +326,7 @@ h3 {
 .secondary-button,
 .button,
 .text-button,
-.mac-teaser {
+.mac-availability {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -385,7 +385,7 @@ h3 {
   border-color: rgba(0, 106, 157, 0.38);
 }
 
-.mac-teaser {
+.mac-availability {
   gap: 10px;
   padding: 9px 15px;
   color: var(--ink-soft);
@@ -393,7 +393,7 @@ h3 {
   border: 1px solid var(--border-strong);
 }
 
-.mac-teaser svg {
+.mac-availability svg {
   width: 23px;
   height: 23px;
   fill: none;
@@ -403,19 +403,19 @@ h3 {
   stroke-width: 1.8;
 }
 
-.mac-teaser > span {
+.mac-availability > span {
   display: grid;
   text-align: left;
 }
 
-.mac-teaser small {
+.mac-availability small {
   color: var(--muted);
   font-size: 0.63rem;
   font-weight: 650;
   letter-spacing: 0.02em;
 }
 
-.mac-teaser strong {
+.mac-availability strong {
   color: var(--ink);
   font-size: 0.92rem;
   line-height: 1.15;
@@ -1598,7 +1598,7 @@ main.legal {
 
   .hero-actions .app-store-button,
   .hero-actions .secondary-button,
-  .hero-actions .mac-teaser {
+  .hero-actions .mac-availability {
     width: 100%;
   }
 
