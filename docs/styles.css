@@ -274,9 +274,9 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.92fr);
   align-items: center;
-  min-height: 760px;
+  min-height: 700px;
   gap: clamp(44px, 6vw, 96px);
-  padding-block: clamp(70px, 9vw, 126px);
+  padding-block: clamp(52px, 6vw, 88px);
 }
 
 .hero-content {
@@ -285,8 +285,8 @@ h3 {
 }
 
 .hero-content h1 {
-  max-width: 760px;
-  font-size: clamp(2.4rem, 5vw, 4.1rem);
+  max-width: 800px;
+  font-size: clamp(2.4rem, 4.6vw, 3.7rem);
   overflow-wrap: normal;
   word-break: normal;
   hyphens: none;
@@ -386,16 +386,20 @@ h3 {
 }
 
 .mac-availability {
+  flex: 0 0 100%;
+  justify-content: flex-start;
   gap: 10px;
-  padding: 9px 15px;
+  min-height: 0;
+  padding: 4px 0 0;
   color: var(--ink-soft);
-  background: rgba(242, 248, 250, 0.88);
-  border: 1px solid var(--border-strong);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
 }
 
 .mac-availability svg {
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
   fill: none;
   stroke: var(--brand-dark);
   stroke-linecap: round;
@@ -404,20 +408,23 @@ h3 {
 }
 
 .mac-availability > span {
-  display: grid;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 3px 7px;
   text-align: left;
 }
 
 .mac-availability small {
   color: var(--muted);
-  font-size: 0.63rem;
-  font-weight: 650;
-  letter-spacing: 0.02em;
+  font-size: 0.82rem;
+  font-weight: 680;
+  letter-spacing: 0;
 }
 
 .mac-availability strong {
-  color: var(--ink);
-  font-size: 0.92rem;
+  color: var(--brand-dark);
+  font-size: 0.82rem;
   line-height: 1.15;
 }
 
@@ -475,7 +482,8 @@ h3 {
   display: grid;
   place-items: center;
   min-width: 0;
-  min-height: 640px;
+  min-height: 680px;
+  padding-block: 24px;
 }
 
 .phone-shot {
@@ -498,7 +506,7 @@ h3 {
 }
 
 .hero-phone {
-  width: min(100%, 348px);
+  width: min(100%, 296px);
 }
 
 .hero-orb {
@@ -530,8 +538,8 @@ h3 {
   bottom: 8%;
   z-index: 4;
   display: grid;
-  width: min(360px, calc(100% - 12px));
-  padding: 14px 16px 15px;
+  width: min(338px, calc(100% - 12px));
+  padding: 13px 15px 14px;
   color: var(--ink-soft);
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid var(--border);
@@ -551,7 +559,7 @@ h3 {
 
 .status-legend {
   display: grid;
-  grid-template-columns: minmax(120px, 0.8fr) minmax(166px, 1.2fr);
+  grid-template-columns: minmax(112px, 0.8fr) minmax(154px, 1.2fr);
   align-items: start;
   gap: 8px 14px;
   margin: 0;
@@ -1259,12 +1267,12 @@ main.legal {
 
   .hero-grid {
     grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
-    min-height: 700px;
+    min-height: 660px;
     gap: 38px;
   }
 
   .hero-phone {
-    width: min(100%, 320px);
+    width: min(100%, 280px);
   }
 
   .feature-grid {
@@ -1305,11 +1313,11 @@ main.legal {
   }
 
   .hero-visual {
-    min-height: 610px;
+    min-height: 650px;
   }
 
   .hero-phone {
-    width: min(80vw, 315px);
+    width: min(80vw, 292px);
   }
 
   .floating-status {
@@ -1455,11 +1463,11 @@ main.legal {
   }
 
   .hero-visual {
-    min-height: 550px;
+    min-height: 590px;
   }
 
   .hero-phone {
-    width: min(80vw, 278px);
+    width: min(80vw, 268px);
   }
 
   .hero-orb-blue {
@@ -1597,9 +1605,14 @@ main.legal {
   }
 
   .hero-actions .app-store-button,
-  .hero-actions .secondary-button,
-  .hero-actions .mac-availability {
+  .hero-actions .secondary-button {
     width: 100%;
+  }
+
+  .hero-actions .mac-availability {
+    justify-content: center;
+    width: 100%;
+    padding-top: 6px;
   }
 
   .hero-visual {
@@ -1607,7 +1620,7 @@ main.legal {
   }
 
   .hero-phone {
-    width: min(82vw, 258px);
+    width: min(82vw, 248px);
   }
 
   .floating-status {
