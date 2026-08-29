@@ -733,6 +733,13 @@ h3 {
   border-top: 0;
 }
 
+.showcase-section.showcase-season {
+  background:
+    radial-gradient(circle at 86% 18%, rgba(255, 169, 66, 0.11), transparent 34%),
+    #f8fbfd;
+  border-top: 0;
+}
+
 .showcase-grid {
   display: grid;
   grid-template-columns: minmax(280px, 0.86fr) minmax(0, 1.14fr);
@@ -800,6 +807,10 @@ h3 {
 
 .showcase-alt .check-list li::before {
   background: var(--green);
+}
+
+.showcase-season .check-list li::before {
+  background: #df741d;
 }
 
 .device-section {
